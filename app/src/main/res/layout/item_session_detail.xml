@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewSessionTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            tools:text="09:00 - 10:00" />
+
+        <TextView
+            android:id="@+id/textViewSessionStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            tools:text="Present" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewSubjectNameDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Mathematics" />
+
+    <TextView
+        android:id="@+id/textViewRemarksDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        tools:text="Remarks: Came 15 minutes late."
+        tools:visibility="visible" />
+
+</LinearLayout>

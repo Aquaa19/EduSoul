@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ScholarSync</string>
+
+    <!-- General Actions -->
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="add">Add</string>
+    <string name="view">View</string>
+    <string name="search">Search</string>
+    <string name="confirm">Confirm</string>
+    <string name="close">Close</string>
+    <string name="loading">Loading…</string>
+    <string name="error_occurred">An error occurred. Please try again.</string>
+    <string name="success">Success</string>
+    <string name="no_data_available">No data available.</string>
+    <string name="retry">Retry</string>
+
+    <!-- Hints -->
+    <string name="hint_username">Username</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+
+    <!-- Buttons -->
+    <string name="button_login">Login</string>
+    <string name="button_signup">Sign Up</string>
+
+    <!-- Navigation/Links -->
+    <string name="text_no_account">Don\'t have an account? Sign Up</string>
+    <string name="text_already_have_account">Already have an account? Login</string>
+    <string name="logout">Logout</string>
+
+    <!-- Activity Titles -->
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_signup">Sign Up</string>
+
+    <!-- Validation Messages -->
+    <string name="validation_field_required">%1$s is required.</string>
+    <string name="validation_email_invalid">Invalid email address.</string>
+    <string name="validation_password_mismatch">Passwords do not match.</string>
+    <string name="validation_password_too_short">Password must be at least %1$d characters.</string>
+
+    <!-- Navigation Drawer / General Menu Items -->
+    <string name="nav_home">Home</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Admin Dashboard Card Titles -->
+    <string name="admin_dashboard_title">Admin Dashboard</string>
+    <string name="manage_users">Manage Users</string>
+    <string name="manage_students">Manage Students</string>
+    <string name="manage_subjects">Manage Subjects</string>
+    <string name="manage_batches">Manage Batches</string>
+    <string name="manage_class_schedule">Class Schedule</string>
+    <string name="manage_fee_structure">Fee Structure</string>
+    <string name="reports_analytics">Reports &amp; Analytics</string>
+    <string name="announcements">Manage Announcements</string>
+    <string name="manage_exams">Exam Management</string>
+    <string name="set_weekly_timetable">Weekly Timetable</string>
+    <string name="system_config">System Configuration</string>
+    <string name="admin_messages">Messages</string>
+
+    <!-- Teacher Dashboard Card Titles -->
+    <string name="teacher_dashboard_title">Teacher Dashboard</string>
+    <string name="view_schedule">View Schedule</string>
+    <string name="mark_attendance">Mark Attendance</string>
+    <string name="update_syllabus_progress">Update Syllabus Progress</string>
+    <string name="enter_exam_scores">Enter Exam Scores</string>
+    <string name="manage_homework_assignments">Homework &amp; Assignments</string>
+    <string name="resource_management">Manage Resources</string>
+    <string name="teacher_announcements">Announcements</string>
+    <string name="teacher_messages">Messages</string>
+
+    <!-- Parent Dashboard Card Titles -->
+    <string name="parent_dashboard_title">Parent Dashboard</string>
+    <string name="child_activity_dashboard">Child Activity</string>
+    <string name="view_attendance">View Attendance</string>
+    <string name="view_syllabus_progress">Syllabus Progress</string>
+    <string name="view_results_performance">Results &amp; Performance</string>
+    <string name="view_homework">View Homework</string>
+    <string name="view_fee_status">Fee Status</string>
+    <string name="report_absence">Report Absence</string>
+    <string name="parent_student_profile">Student Profile</string>
+    <string name="parent_learning_resources">Learning Resources</string>
+    <string name="messages">Messages</string>
+
+    <!-- Accessibility Content Descriptions -->
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+    <!-- Accessibility Content Descriptions -->
+    <string name="theme_selected">Selected Theme Indicator</string>
+    <string name="ai_assistant_description">AI Assistant Button</string>
+    <string name="view_attendance_icon_description">View Attendance Icon</string>
+    <string name="syllabus_progress_icon_description">Syllabus Progress Icon</string>
+    <string name="performance_overview_icon_description">Performance Overview Icon</string>
+    <string name="view_fees_status_icon_description">View Fees Status Icon</string>
+    <string name="student_profile_icon_description">Student Profile Icon</string>
+    <string name="homework_assignments_icon_description">Homework and Assignments Icon</string>
+    <string name="learning_resources_icon_description">Learning Resources Icon</string>
+    <string name="messages_icon_description">Messages Icon</string>
+
+
+</resources>

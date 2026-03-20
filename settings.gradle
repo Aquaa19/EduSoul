@@ -1,0 +1,26 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+
+    plugins {
+        id 'com.android.application' version '8.11.1'
+        id 'org.jetbrains.kotlin.android' version '2.0.0' // CHANGE THIS LINE
+        id 'com.google.gms.google-services' version '4.4.3'
+        id 'org.jetbrains.kotlin.plugin.serialization' version '1.9.22' // CHANGE THIS LINE (if serialization plugin is used)
+        id 'com.google.devtools.ksp' version '2.0.0-1.0.21' // CHANGE THIS LINE
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "EduSoul"
+include ':app'

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "451301753721",
+    "project_id": "edusoulv2",
+    "storage_bucket": "edusoulv2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451301753721:android:cdc260d9618593b60465a8",
+        "android_client_info": {
+          "package_name": "com.aquaa.edusoul"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-70rXRttbtboVrzq_V4D8ISbGnzIc5Xk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

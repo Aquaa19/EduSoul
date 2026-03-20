@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Layout for BatchEnrollmentActivity:
+    Allows an administrator to manage student enrollments for a specific batch.
+    Will display lists of enrolled and available students.
+-->
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.admin.BatchEnrollmentActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.EduSoul.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarBatchEnrollment"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/Theme.EduSoul.PopupOverlay"
+            tools:title="Enroll Students in Batch X"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <TextView
+            android:id="@+id/textViewBatchEnrollmentInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+            android:layout_marginBottom="16dp"
+            tools:text="Managing enrollments for: Grade 10 Warriors"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enrolled Students:"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewEnrolledStudents"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="8dp"
+            tools:listitem="@layout/item_student_enrollment_status"/>
+        <!-- item_student_enrollment_status will show student name and an "Unenroll" button -->
+        <TextView
+            android:id="@+id/textViewNoEnrolledStudents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No students currently enrolled."
+            android:gravity="center"
+            android:visibility="gone"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Available Students to Enroll:"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+            android:layout_marginTop="16dp"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewAvailableStudents"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="8dp"
+            tools:listitem="@layout/item_student_enrollment_status"/>
+        <!-- item_student_enrollment_status will show student name and an "Enroll" button -->
+        <TextView
+            android:id="@+id/textViewNoAvailableStudents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No other students available to enroll."
+            android:gravity="center"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

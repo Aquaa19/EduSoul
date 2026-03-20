@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="1"
+        android:title="@string/search"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_search" />
+    <item
+        android:id="@+id/action_customize_dashboard"
+        android:orderInCategory="98"
+        android:title="Customize Dashboard"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_open_theme_picker"
+        android:orderInCategory="98"
+        android:title="Choose Theme"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_edit_profile_admin"
+        android:orderInCategory="99"
+        android:title="Edit Profile"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_profile" />
+    <item
+        android:id="@+id/action_logout_admin"
+        android:orderInCategory="100"
+        android:title="@string/logout"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_logout" />
+</menu>

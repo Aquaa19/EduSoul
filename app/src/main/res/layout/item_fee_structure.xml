@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginBottom="4dp"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageViewFeeIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_fee_item"
+            app:tint="?attr/colorPrimary"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:contentDescription="Fee Icon"/>
+
+        <TextView
+            android:id="@+id/textViewFeeTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+            tools:text="Monthly Tuition Grade 10"
+            app:layout_constraintStart_toEndOf="@id/imageViewFeeIcon"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/imageButtonEditFeeStructure"/>
+
+        <TextView
+            android:id="@+id/textViewFeeDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="2dp"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+            tools:text="This fee covers full tuition for the academic year."
+            app:layout_constraintStart_toEndOf="@id/imageViewFeeIcon"
+            app:layout_constraintTop_toBottomOf="@id/textViewFeeTitle"
+            app:layout_constraintEnd_toStartOf="@id/imageButtonEditFeeStructure"/>
+
+
+        <TextView
+            android:id="@+id/textViewFeeAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+            android:textStyle="bold"
+            tools:text="Amount: ₹5000.00"
+            app:layout_constraintStart_toEndOf="@id/imageViewFeeIcon"
+            app:layout_constraintTop_toBottomOf="@id/textViewFeeDescription"/> <TextView
+        android:id="@+id/textViewFeeFrequency"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="2dp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+        tools:text="Frequency: Monthly"
+        app:layout_constraintStart_toEndOf="@id/imageViewFeeIcon"
+        app:layout_constraintTop_toBottomOf="@id/textViewFeeAmount"
+        app:layout_constraintEnd_toStartOf="@id/imageButtonEditFeeStructure"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <ImageButton
+            android:id="@+id/imageButtonEditFeeStructure"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_edit"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:tint="?attr/colorControlNormal"
+            app:layout_constraintEnd_toStartOf="@id/imageButtonDeleteFeeStructure"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:contentDescription="Edit Fee Structure"/>
+
+        <ImageButton
+            android:id="@+id/imageButtonDeleteFeeStructure"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_delete"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:tint="@color/design_default_color_error"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:contentDescription="Delete Fee Structure"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

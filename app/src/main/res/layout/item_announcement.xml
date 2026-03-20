@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginBottom="4dp"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageViewAnnouncementIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_announcements"
+            app:tint="?attr/colorPrimary"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="Announcement Icon"/>
+
+        <TextView
+            android:id="@+id/textViewAnnouncementTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+            tools:text="Important Notice: Holiday"
+            app:layout_constraintStart_toEndOf="@id/imageViewAnnouncementIcon"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/imageButtonEditAnnouncement"/>
+
+        <TextView
+            android:id="@+id/textViewAnnouncementContentPreview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+            android:maxLines="2"
+            android:ellipsize="end"
+            tools:text="This is a preview of the announcement content. It will be a bit longer to test the max lines and ellipsize features..."
+            app:layout_constraintStart_toEndOf="@id/imageViewAnnouncementIcon"
+            app:layout_constraintTop_toBottomOf="@id/textViewAnnouncementTitle"
+            app:layout_constraintEnd_toStartOf="@id/imageButtonEditAnnouncement"/>
+
+        <TextView
+            android:id="@+id/textViewAnnouncementDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+            tools:text="Published: 2024-06-04"
+            app:layout_constraintStart_toEndOf="@id/imageViewAnnouncementIcon"
+            app:layout_constraintTop_toBottomOf="@id/textViewAnnouncementContentPreview"/>
+
+        <TextView
+            android:id="@+id/textViewAnnouncementAudience"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+            android:textStyle="italic"
+            tools:text="For: ALL"
+            app:layout_constraintStart_toEndOf="@id/textViewAnnouncementDate"
+            app:layout_constraintTop_toTopOf="@id/textViewAnnouncementDate"
+            app:layout_constraintBottom_toBottomOf="@id/textViewAnnouncementDate"/>
+
+        <TextView
+            android:id="@+id/textViewAnnouncementAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+            tools:text="By: Admin"
+            app:layout_constraintStart_toEndOf="@id/imageViewAnnouncementIcon"
+            app:layout_constraintTop_toBottomOf="@id/textViewAnnouncementAudience" />
+
+        <ImageButton
+            android:id="@+id/imageButtonEditAnnouncement"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_edit"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:tint="?attr/colorControlNormal"
+            app:layout_constraintEnd_toStartOf="@id/imageButtonDeleteAnnouncement"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:contentDescription="Edit Announcement"/>
+
+        <ImageButton
+            android:id="@+id/imageButtonDeleteAnnouncement"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_delete"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:tint="@color/design_default_color_error"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:contentDescription="Delete Announcement"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

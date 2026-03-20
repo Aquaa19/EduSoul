@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="cardManageUsers" />
+    <item type="id" name="cardManageStudents" />
+    <item type="id" name="cardManageSubjects" />
+    <item type="id" name="cardManageBatches" />
+    <item type="id" name="cardManageFeeStructures" />
+    <item type="id" name="cardManageAnnouncements" />
+    <item type="id" name="cardManageSchedule" />
+    <item type="id" name="cardManageExams" />
+    <item type="id" name="cardStatusReports" />
+    <item type="id" name="cardSystemConfig" />
+    <item type="id" name="cardReportAnalytics" />
+    <item type="id" name="cardSetWeeklyTimetable" />
+    <item type="id" name="cardAdminMessages" />
+    <item type="id" name="cardLearningResources" />
+
+    <item type="id" name="cardViewSchedule" />
+    <item type="id" name="cardMarkAttendance" />
+    <item type="id" name="cardUpdateSyllabus" />
+    <item type="id" name="cardManageHomework" />
+    <item type="id" name="cardEnterScores" />
+    <item type="id" name="cardResourceManagement" />
+    <item type="id" name="cardTeacherAnnouncements" />
+    <item type="id" name="cardTeacherMessages" />
+
+</resources>

@@ -1,0 +1,41 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="850dp"
+    android:height="850dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+  <path
+      android:pathData="M20.69,12.43l-8.69,4.35l0,5.22l8.69,-4.35l0,-5.22z"
+      android:fillColor="@color/ai_assistant_green"
+      android:fillType="evenOdd"/>
+  <path
+      android:pathData="M6.78,4.61 L3.31,6.35Z"
+      android:fillColor="@color/ai_assistant_green"
+      android:fillType="evenOdd"/>
+  <path
+      android:pathData="M17.22,8.09l0,0l0,4.34l3.47,-1.73l0,-4.35l-3.47,1.74z"
+      android:fillColor="@color/ai_assistant_green"
+      android:fillType="evenOdd"/>
+  <path
+      android:pathData="M12,15.04l3.48,-1.73l0,-4.35l0,0l-3.48,1.74l0,4.34z"
+      android:fillColor="@color/ai_assistant_green"
+      android:fillType="evenOdd"/>
+  <path
+      android:pathData="M6.78,4.61l-3.47,1.74l3.47,1.74l3.48,-1.74l-3.48,-1.74z"
+      android:fillColor="@color/ai_assistant_light_green"/>
+  <path
+      android:pathData="M12,2l-3.48,1.74l3.48,1.74l5.22,2.61l3.47,-1.74l-8.69,-4.35z"
+      android:fillColor="@color/ai_assistant_light_green"
+      android:fillType="evenOdd"/>
+  <path
+      android:pathData="M12,7.22l-3.48,1.74l3.48,1.74l3.48,-1.74l-3.48,-1.74z"
+      android:fillColor="@color/ai_assistant_light_green"/>
+  <path
+      android:pathData="M8.52,15v5.22L12,22L12,16.78ZM11.13,20.22 L9.39,19.35L9.39,16.78l1.74,0.87Z"
+      android:fillColor="@color/ai_assistant_yellow"/>
+  <path
+      android:pathData="M3.31,6.35v11.3l3.47,1.74L6.78,8.09ZM5.92,17.65 L4.17,16.78v-10l1.75,0.87Z"
+      android:fillColor="@color/ai_assistant_yellow"/>
+  <path
+      android:pathData="M8.52,9 L12,10.7L12,15L8.52,13.31ZM11.13,13.35v-3L9.39,9.45v3Z"
+      android:fillColor="@color/ai_assistant_yellow"/>
+</vector>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_notifications_parent"
+        android:orderInCategory="98"
+        android:title="Notifications"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_notification" />
+    <item
+        android:id="@+id/action_edit_profile_parent"
+        android:orderInCategory="99"
+        android:title="Edit Profile"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_profile" />
+    <item
+        android:id="@+id/action_logout_parent"
+        android:orderInCategory="100"
+        android:title="Logout"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_logout" />
+</menu>

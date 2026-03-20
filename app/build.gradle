@@ -1,0 +1,139 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'com.google.devtools.ksp'
+    id 'com.google.gms.google-services'
+    id 'org.jetbrains.kotlin.plugin.serialization'
+    id 'kotlin-parcelize'
+    id 'kotlin-kapt'
+    id 'kotlin-allopen'
+    id 'kotlin-noarg'
+}
+
+noArg {
+    annotation("com.google.firebase.firestore.PropertyName")
+    annotation("androidx.room.Entity")
+}
+
+allOpen {
+    annotation("androidx.room.Entity")
+}
+
+android {
+    namespace 'com.aquaa.edusoul'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.aquaa.edusoul"
+        minSdk 26
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables {
+            useSupportLibrary true
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+
+    packagingOptions {
+        resources {
+            excludes += '/META-INF/{AL2.0,LGPL2.1}'
+        }
+    }
+}
+
+dependencies {
+    // Core Android & UI
+    implementation 'androidx.core:core-ktx:1.13.1'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.12.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.8.3'
+    implementation 'androidx.activity:activity-ktx:1.8.2'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.3.2'
+
+    // ViewModel and LiveData (Lifecycle Components)
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3'
+    implementation "androidx.lifecycle:lifecycle-common-java8:2.7.0"
+    implementation "androidx.lifecycle:lifecycle-reactivestreams-ktx:2.7.0"
+
+    // Navigation Components
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.7.7'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.7.7'
+    //implementation libs.firebase.appcheck.debug
+
+    // Room Database
+    def room_version = "2.6.1"
+    implementation "androidx.room:room-runtime:$room_version"
+    ksp "androidx.room:room-compiler:$room_version"
+    // Kotlin Extensions and Coroutines support for Room
+    implementation "androidx.room:room-ktx:$room_version"
+
+    // Kotlin Coroutines
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0'
+
+    // Kotlinx Serialization runtime
+    implementation 'org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0'
+
+    // JSON Serialization (Gson) - Keep for backward compatibility if needed
+    implementation 'com.google.code.gson:gson:2.10.1'
+
+    // For Excel file operations (as used in ManageStudentsActivity)
+    implementation 'org.apache.poi:poi:5.2.3'
+    implementation 'org.apache.poi:poi-ooxml:5.2.3'
+
+    // Testing
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    // Firebase platform BOM (recommended for managing Firebase versions)
+    // Using BOM 33.16.0 as suggested by Data Connect README
+    implementation platform('com.google.firebase:firebase-bom:33.16.0')
+    //implementation("com.google.firebase:firebase-appcheck-playintegrity")
+
+    // Firebase Data Connect SDK
+    implementation 'com.google.firebase:firebase-dataconnect:16.0.3'
+
+    implementation 'com.google.firebase:firebase-messaging-ktx'
+    implementation 'com.google.firebase:firebase-messaging'
+
+
+    // Traditional Firebase services (keeping for backward compatibility)
+    implementation 'com.google.firebase:firebase-auth-ktx'
+    implementation 'com.google.firebase:firebase-firestore-ktx'
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-storage-ktx'
+
+    implementation 'com.google.mlkit:barcode-scanning:17.3.0'
+    implementation 'com.google.zxing:core:3.5.2'
+    // CameraX
+    implementation 'androidx.camera:camera-core:1.3.3'
+    implementation 'androidx.camera:camera-camera2:1.3.3'
+    implementation 'androidx.camera:camera-lifecycle:1.3.3'
+    implementation 'androidx.camera:camera-view:1.3.3'
+    implementation 'androidx.camera:camera-extensions:1.3.3'
+
+}

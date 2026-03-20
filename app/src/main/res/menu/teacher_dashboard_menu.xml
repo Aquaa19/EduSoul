@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_notifications_teacher"
+        android:orderInCategory="98"
+        android:title="Notifications"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_notification" />
+    <item
+        android:id="@+id/action_edit_profile_teacher"
+        android:orderInCategory="99"
+        android:title="Edit Profile"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_profile" />
+    <item
+        android:id="@+id/action_choose_theme"
+        android:orderInCategory="100"
+        android:title="Choose Theme"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_messages_teacher"
+        android:orderInCategory="100"
+        android:title="Messages"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_message" />
+    <item
+        android:id="@+id/action_logout_teacher"
+        android:orderInCategory="101"
+        android:title="@string/logout"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_logout" />
+</menu>

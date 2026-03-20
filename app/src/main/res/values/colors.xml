@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#808080</color>
+    <color name="light_grey">#D3D3D3</color>
+    <color name="dark_grey">#A9A9A9</color>
+
+    <color name="ai_assistant_yellow">#FFED8F</color>
+    <color name="ai_assistant_light_green">#A7D46F</color>
+    <color name="ai_assistant_green">#359768</color>
+    <color name="ai_assistant_dark_purple">#3C3352</color>
+
+    <color name="system_default_primary_light">#4CAF50</color>
+    <color name="system_default_onPrimary_light">#FFFFFF</color> <color name="system_default_primaryContainer_light">#C8E6C9</color>
+    <color name="system_default_onPrimaryContainer_light">#1B5E20</color>
+    <color name="system_default_secondary_light">#8BC34A</color>
+    <color name="system_default_onSecondary_light">#FFFFFF</color>
+    <color name="system_default_secondaryContainer_light">#DCEDC8</color>
+    <color name="system_default_onSecondaryContainer_light">#33691E</color>
+    <color name="system_default_surface_light">#FFFFFF</color>
+    <color name="system_default_onSurface_light">#212121</color> <color name="system_default_background_light">#F5F5F5</color>
+    <color name="system_default_onBackground_light">#212121</color> <color name="system_default_textPrimary_light">#212121</color> <color name="system_default_textSecondary_light">#757575</color> <color name="system_default_textHint_light">#BDBDBD</color>
+
+    <color name="system_default_primary_dark">#66BB6A</color>
+    <color name="system_default_onPrimary_dark">#FFFFFF</color> <color name="system_default_primaryContainer_dark">#388E3C</color>
+    <color name="system_default_onPrimaryContainer_dark">#C8E6C9</color>
+    <color name="system_default_secondary_dark">#A5D6A7</color>
+    <color name="system_default_onSecondary_dark">#000000</color>
+    <color name="system_default_secondaryContainer_dark">#7CB342</color>
+    <color name="system_default_onSecondaryContainer_dark">#DCEDC8</color>
+    <color name="system_default_surface_dark">#1F1F1F</color>
+    <color name="system_default_onSurface_dark">#FFFFFF</color> <color name="system_default_background_dark">#121212</color>
+    <color name="system_default_onBackground_dark">#FFFFFF</color> <color name="system_default_textPrimary_dark">#FFFFFF</color> <color name="system_default_textSecondary_dark">#D3D3D3</color> <color name="system_default_textHint_dark">#A9A9A9</color>
+
+    <color name="blue_theme_light_primary">#2196F3</color>
+    <color name="blue_theme_light_onPrimary">#FFFFFF</color>
+    <color name="blue_theme_light_primaryContainer">#BBDEFB</color>
+    <color name="blue_theme_light_onPrimaryContainer">#0D47A1</color>
+    <color name="blue_theme_light_secondary">#03A9F4</color>
+    <color name="blue_theme_light_onSecondary">#FFFFFF</color>
+    <color name="blue_theme_light_secondaryContainer">#B3E5FC</color>
+    <color name="blue_theme_light_onSecondaryContainer">#01579B</color>
+    <color name="blue_theme_light_onSurface">#212121</color>
+    <color name="blue_theme_light_onBackground">#212121</color>
+    <color name="blue_theme_light_textPrimary">#212121</color>
+    <color name="blue_theme_light_textSecondary">#757575</color>
+    <color name="blue_theme_light_textHint">#BDBDBD</color>
+
+
+    <color name="blue_theme_dark_primary">#1976D2</color>
+    <color name="blue_theme_dark_onPrimary">#FFFFFF</color>
+    <color name="blue_theme_dark_primaryContainer">#0D47A1</color>
+    <color name="blue_theme_dark_onPrimaryContainer">#BBDEFB</color>
+    <color name="blue_theme_dark_secondary">#0277BD</color>
+    <color name="blue_theme_dark_onSecondary">#FFFFFF</color>
+    <color name="blue_theme_dark_secondaryContainer">#01579B</color>
+    <color name="blue_theme_dark_onSecondaryContainer">#B3E5FC</color>
+    <color name="blue_theme_dark_onSurface">#FFFFFF</color>
+    <color name="blue_theme_dark_onBackground">#FFFFFF</color>
+    <color name="blue_theme_dark_textPrimary">#FFFFFF</color>
+    <color name="blue_theme_dark_textSecondary">#D3D3D3</color>
+    <color name="blue_theme_dark_textHint">#A9A9A9</color>
+
+    <color name="deep_cyan_theme_light_primary">#00BCD4</color> <color name="deep_cyan_theme_light_onPrimary">#FFFFFF</color>
+    <color name="deep_cyan_theme_light_primaryContainer">#B2EBF2</color> <color name="deep_cyan_theme_light_onPrimaryContainer">#006064</color> <color name="deep_cyan_theme_light_secondary">#00ACC1</color> <color name="deep_cyan_theme_light_onSecondary">#FFFFFF</color>
+    <color name="deep_cyan_theme_light_secondaryContainer">#80DEEA</color> <color name="deep_cyan_theme_light_onSecondaryContainer">#00838F</color> <color name="deep_cyan_theme_light_onSurface">#212121</color>
+    <color name="deep_cyan_theme_light_onBackground">#212121</color>
+    <color name="deep_cyan_theme_light_textPrimary">#212121</color>
+    <color name="deep_cyan_theme_light_textSecondary">#757575</color>
+    <color name="deep_cyan_theme_light_textHint">#BDBDBD</color>
+
+    <color name="deep_cyan_theme_dark_primary">#0097A7</color> <color name="deep_cyan_theme_dark_onPrimary">#FFFFFF</color>
+    <color name="deep_cyan_theme_dark_primaryContainer">#006064</color> <color name="deep_cyan_theme_dark_onPrimaryContainer">#B2EBF2</color> <color name="deep_cyan_theme_dark_secondary">#00838F</color> <color name="deep_cyan_theme_dark_onSecondary">#FFFFFF</color>
+    <color name="deep_cyan_theme_dark_secondaryContainer">#00BCD4</color> <color name="deep_cyan_theme_dark_onSecondaryContainer">#80DEEA</color> <color name="deep_cyan_theme_dark_onSurface">#FFFFFF</color>
+    <color name="deep_cyan_theme_dark_onBackground">#FFFFFF</color>
+    <color name="deep_cyan_theme_dark_textPrimary">#FFFFFF</color>
+    <color name="deep_cyan_theme_dark_textSecondary">#D3D3D3</color>
+    <color name="deep_cyan_theme_dark_textHint">#A9A9A9</color>
+
+    <color name="orange_theme_light_primary">#FF9800</color>
+    <color name="orange_theme_light_onPrimary">#FFFFFF</color>
+    <color name="orange_theme_light_primaryContainer">#FFE0B2</color>
+    <color name="orange_theme_light_onPrimaryContainer">#E65100</color>
+    <color name="orange_theme_light_secondary">#FFC107</color>
+    <color name="orange_theme_light_onSecondary">#000000</color>
+    <color name="orange_theme_light_secondaryContainer">#FFECB3</color>
+    <color name="orange_theme_light_onSecondaryContainer">#FF8F00</color>
+    <color name="orange_theme_light_onSurface">#212121</color>
+    <color name="orange_theme_light_onBackground">#212121</color>
+    <color name="orange_theme_light_textPrimary">#212121</color>
+    <color name="orange_theme_light_textSecondary">#757575</color>
+    <color name="orange_theme_light_textHint">#BDBDBD</color>
+
+    <color name="orange_theme_dark_primary">#EF6C00</color>
+    <color name="orange_theme_dark_onPrimary">#FFFFFF</color>
+    <color name="orange_theme_dark_primaryContainer">#E65100</color>
+    <color name="orange_theme_dark_onPrimaryContainer">#FFE0B2</color>
+    <color name="orange_theme_dark_secondary">#FFD54F</color>
+    <color name="orange_theme_dark_onSecondary">#000000</color>
+    <color name="orange_theme_dark_secondaryContainer">#FF8F00</color>
+    <color name="orange_theme_dark_onSecondaryContainer">#FFECB3</color>
+    <color name="orange_theme_dark_onSurface">#FFFFFF</color>
+    <color name="orange_theme_dark_onBackground">#FFFFFF</color>
+    <color name="orange_theme_dark_textPrimary">#FFFFFF</color>
+    <color name="orange_theme_dark_textSecondary">#D3D3D3</color>
+    <color name="orange_theme_dark_textHint">#A9A9A9</color>
+
+    <color name="purple_theme_light_primary">#9C27B0</color>
+    <color name="purple_theme_light_onPrimary">#FFFFFF</color>
+    <color name="purple_theme_light_primaryContainer">#E1BEE7</color>
+    <color name="purple_theme_light_onPrimaryContainer">#6A1B9A</color>
+    <color name="purple_theme_light_secondary">#BA68C8</color>
+    <color name="purple_theme_light_onSecondary">#FFFFFF</color>
+    <color name="purple_theme_light_secondaryContainer">#E1BEE7</color>
+    <color name="purple_theme_light_onSecondaryContainer">#8E24AA</color>
+    <color name="purple_theme_light_onSurface">#212121</color>
+    <color name="purple_theme_light_onBackground">#212121</color>
+    <color name="purple_theme_light_textPrimary">#212121</color>
+    <color name="purple_theme_light_textSecondary">#757575</color>
+    <color name="purple_theme_light_textHint">#BDBDBD</color>
+
+    <color name="purple_theme_dark_primary">#8E24AA</color>
+    <color name="purple_theme_dark_onPrimary">#FFFFFF</color>
+    <color name="purple_theme_dark_primaryContainer">#6A1B9A</color>
+    <color name="purple_theme_dark_onPrimaryContainer">#E1BEE7</color>
+    <color name="purple_theme_dark_secondary">#CE93D8</color>
+    <color name="purple_theme_dark_onSecondary">#000000</color>
+    <color name="purple_theme_dark_secondaryContainer">#8E24AA</color>
+    <color name="purple_theme_dark_onSecondaryContainer">#E1BEE7</color>
+    <color name="purple_theme_dark_onSurface">#FFFFFF</color>
+    <color name="purple_theme_dark_onBackground">#FFFFFF</color>
+    <color name="purple_theme_dark_textPrimary">#FFFFFF</color>
+    <color name="purple_theme_dark_textSecondary">#D3D3D3</color>
+    <color name="purple_theme_dark_textHint">#A9A9A9</color>
+
+    <color name="red_theme_light_primary">#F44336</color>
+    <color name="red_theme_light_onPrimary">#FFFFFF</color>
+    <color name="red_theme_light_primaryContainer">#FFCDD2</color>
+    <color name="red_theme_light_onPrimaryContainer">#D32F2F</color>
+    <color name="red_theme_light_secondary">#E57373</color>
+    <color name="red_theme_light_onSecondary">#FFFFFF</color>
+    <color name="red_theme_light_secondaryContainer">#FFCDD2</color>
+    <color name="red_theme_light_onSecondaryContainer">#EF5350</color>
+    <color name="red_theme_light_onSurface">#212121</color>
+    <color name="red_theme_light_onBackground">#212121</color>
+    <color name="red_theme_light_textPrimary">#212121</color>
+    <color name="red_theme_light_textSecondary">#757575</color>
+    <color name="red_theme_light_textHint">#BDBDBD</color>
+
+    <color name="red_theme_dark_primary">#D32F2F</color>
+    <color name="red_theme_dark_onPrimary">#FFFFFF</color>
+    <color name="red_theme_dark_primaryContainer">#C62828</color>
+    <color name="red_theme_dark_onPrimaryContainer">#FFCDD2</color>
+    <color name="red_theme_dark_secondary">#EF9A9A</color>
+    <color name="red_theme_dark_onSecondary">#000000</color>
+    <color name="red_theme_dark_secondaryContainer">#D32F2F</color>
+    <color name="red_theme_dark_onSecondaryContainer">#FFCDD2</color>
+    <color name="red_theme_dark_onSurface">#FFFFFF</color>
+    <color name="red_theme_dark_onBackground">#FFFFFF</color>
+    <color name="red_theme_dark_textPrimary">#FFFFFF</color>
+    <color name="red_theme_dark_textSecondary">#D3D3D3</color>
+    <color name="red_theme_dark_textHint">#A9A9A9</color>
+
+    <color name="teal_theme_light_primary">#009688</color>
+    <color name="teal_theme_light_onPrimary">#FFFFFF</color>
+    <color name="teal_theme_light_primaryContainer">#B2DFDB</color>
+    <color name="teal_theme_light_onPrimaryContainer">#004D40</color>
+    <color name="teal_theme_light_secondary">#4DB6AC</color>
+    <color name="teal_theme_light_onSecondary">#000000</color>
+    <color name="teal_theme_light_secondaryContainer">#80CBC4</color>
+    <color name="teal_theme_light_onSecondaryContainer">#00897B</color>
+    <color name="teal_theme_light_onSurface">#212121</color>
+    <color name="teal_theme_light_onBackground">#212121</color>
+    <color name="teal_theme_light_textPrimary">#212121</color>
+    <color name="teal_theme_light_textSecondary">#757575</color>
+    <color name="teal_theme_light_textHint">#BDBDBD</color>
+
+    <color name="teal_theme_dark_primary">#00796B</color>
+    <color name="teal_theme_dark_onPrimary">#FFFFFF</color>
+    <color name="teal_theme_dark_primaryContainer">#004D40</color>
+    <color name="teal_theme_dark_onPrimaryContainer">#B2DFDB</color>
+    <color name="teal_theme_dark_secondary">#26A69A</color>
+    <color name="teal_theme_dark_onSecondary">#000000</color>
+    <color name="teal_theme_dark_secondaryContainer">#00897B</color>
+    <color name="teal_theme_dark_onSecondaryContainer">#80CBC4</color>
+    <color name="teal_theme_dark_onSurface">#FFFFFF</color>
+    <color name="teal_theme_dark_onBackground">#FFFFFF</color>
+    <color name="teal_theme_dark_textPrimary">#FFFFFF</color>
+    <color name="teal_theme_dark_textSecondary">#D3D3D3</color>
+    <color name="teal_theme_dark_textHint">#A9A9A9</color>
+
+    <color name="indigo_theme_light_primary">#3F51B5</color>
+    <color name="indigo_theme_light_onPrimary">#FFFFFF</color>
+    <color name="indigo_theme_light_primaryContainer">#C5CAE9</color>
+    <color name="indigo_theme_light_onPrimaryContainer">#1A237E</color>
+    <color name="indigo_theme_light_secondary">#5C6BC0</color>
+    <color name="indigo_theme_light_onSecondary">#FFFFFF</color>
+    <color name="indigo_theme_light_secondaryContainer">#9FA8DA</color>
+    <color name="indigo_theme_light_onSecondaryContainer">#303F9F</color>
+    <color name="indigo_theme_light_onSurface">#212121</color>
+    <color name="indigo_theme_light_onBackground">#212121</color>
+    <color name="indigo_theme_light_textPrimary">#212121</color>
+    <color name="indigo_theme_light_textSecondary">#757575</color>
+    <color name="indigo_theme_light_textHint">#BDBDBD</color>
+
+    <color name="indigo_theme_dark_primary">#5760A6</color>
+    <color name="indigo_theme_dark_onPrimary">#FFFFFF</color>
+    <color name="indigo_theme_dark_primaryContainer">#1A237E</color>
+    <color name="indigo_theme_dark_onPrimaryContainer">#C5CAE9</color>
+    <color name="indigo_theme_dark_secondary">#7986CB</color>
+    <color name="indigo_theme_dark_onSecondary">#000000</color>
+    <color name="indigo_theme_dark_secondaryContainer">#3F51B5</color>
+    <color name="indigo_theme_dark_onSecondaryContainer">#9FA8DA</color>
+    <color name="indigo_theme_dark_onSurface">#FFFFFF</color>
+    <color name="indigo_theme_dark_onBackground">#FFFFFF</color>
+    <color name="indigo_theme_dark_textPrimary">#FFFFFF</color>
+    <color name="indigo_theme_dark_textSecondary">#D3D3D3</color>
+    <color name="indigo_theme_dark_textHint">#A9A9A9</color>
+
+    <color name="deep_orange_theme_light_primary">#FF5722</color>
+    <color name="deep_orange_theme_light_onPrimary">#FFFFFF</color>
+    <color name="deep_orange_theme_light_primaryContainer">#FFCCBC</color>
+    <color name="deep_orange_theme_light_onPrimaryContainer">#E64A19</color>
+    <color name="deep_orange_theme_light_secondary">#FF7043</color>
+    <color name="deep_orange_theme_light_onSecondary">#FFFFFF</color>
+    <color name="deep_orange_theme_light_secondaryContainer">#FFAB91</color>
+    <color name="deep_orange_theme_light_onSecondaryContainer">#BF360C</color>
+    <color name="deep_orange_theme_light_onSurface">#212121</color>
+    <color name="deep_orange_theme_light_onBackground">#212121</color>
+    <color name="deep_orange_theme_light_textPrimary">#212121</color>
+    <color name="deep_orange_theme_light_textSecondary">#757575</color>
+    <color name="deep_orange_theme_light_textHint">#BDBDBD</color>
+
+    <color name="deep_orange_theme_dark_primary">#E64A19</color>
+    <color name="deep_orange_theme_dark_onPrimary">#FFFFFF</color>
+    <color name="deep_orange_theme_dark_primaryContainer">#BF360C</color>
+    <color name="deep_orange_theme_dark_onPrimaryContainer">#FFCCBC</color>
+    <color name="deep_orange_theme_dark_secondary">#FF8A65</color>
+    <color name="deep_orange_theme_dark_onSecondary">#000000</color>
+    <color name="deep_orange_theme_dark_secondaryContainer">#FF5722</color>
+    <color name="deep_orange_theme_dark_onSecondaryContainer">#FFAB91</color>
+    <color name="deep_orange_theme_dark_onSurface">#FFFFFF</color>
+    <color name="deep_orange_theme_dark_onBackground">#FFFFFF</color>
+    <color name="deep_orange_theme_dark_textPrimary">#FFFFFF</color>
+    <color name="deep_orange_theme_dark_textSecondary">#D3D3D3</color>
+    <color name="deep_orange_theme_dark_textHint">#A9A9A9</color>
+
+    <color name="status_present">#4CAF50</color>
+    <color name="status_absent">#F44336</color>
+    <color name="status_late">#FFC107</color>
+    <color name="status_pending">#FF9800</color>
+    <color name="log_level_error">#D32F2F</color>
+    <color name="log_level_warning">#FFA000</color>
+    <color name="log_level_info">#1976D2</color>
+    <color name="log_level_debug">#388E3C</color>
+    <color name="green_paid">#4CAF50</color>
+    <color name="orange_overpaid">#FF9800</color>
+    <color name="red_due">#F44336</color>
+    <color name="yellow_partial">#FFEB3B</color>
+</resources>
