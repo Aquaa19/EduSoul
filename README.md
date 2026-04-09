@@ -258,6 +258,7 @@ These support QR scanning, alerts, attachment-related workflows, and schedule-ba
 ## Colaborators
 Arkadyuti Mandal
 Sekh Samim Ali
+
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
