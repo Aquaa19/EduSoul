@@ -255,7 +255,9 @@ The manifest currently includes support for:
 - 📁 Legacy storage access for older Android versions
 
 These support QR scanning, alerts, attachment-related workflows, and schedule-based features.
-
+## Colaborators
+Arkadyuti Mandal
+Sekh Samim Ali
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
