@@ -256,8 +256,8 @@ The manifest currently includes support for:
 
 These support QR scanning, alerts, attachment-related workflows, and schedule-based features.
 ## Colaborators
-Arkadyuti Mandal
-Sekh Samim Ali
+Arkadyuti Mandal (AquaaX)
+Sekh Samim Ali (SamimX)
 
 ## 🚀 Getting Started
 
